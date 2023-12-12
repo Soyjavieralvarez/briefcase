@@ -83,14 +83,28 @@ body {
     display: inline-block;
     width: 20rem;
     margin-top: 7rem;
-    background-color: var(--white-main);
-    border: 3px solid var(--white-main);
-    border-radius: 20rem;
-    overflow: hidden;
+    z-index: 1;
+}
+
+.user-info__container-image::after {
+    z-index: -1;
+    content: "hola";
+    position: absolute;
+    top: 5%;
+    left: 9%;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-repeating-radial-gradient(center center, var(--white-main), var(--white-main) 1px, transparent 0px, transparent 100%);
+    background-size: 0.6rem 0.6rem;
+    opacity: 0.4;
+    border-radius: 30rem;
+
 }
 
 .user-info__image {
     width: 100%;
+    background-color: var(--white-main);
+    border-radius: 20rem;
 }
 
 /** MAIN CONTAINER **/
