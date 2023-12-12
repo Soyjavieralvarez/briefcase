@@ -107,6 +107,53 @@ body {
     border-radius: 20rem;
 }
 
+.user-info__name {
+    margin-top: 2.6rem;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 3.2rem;
+    color: var(--black-main);
+}
+
+.user-info__job {
+    font-size: 2rem;
+    color: var(--black-main);
+    font-weight: bold;
+
+}
+
+.user-info__links {
+    margin-bottom: 3.6rem;
+}
+
+.links__social {
+    text-align: center;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.social__option {
+    height: 3rem;
+    width: 3rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    opacity: 0.9;
+    border-radius: 3rem;
+    transition: all 300ms ease-in-out;
+}
+
+.social__option:hover {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.layout__menu {
+    display: none !important;
+}
+
+
+
 /** MAIN CONTAINER **/
 
 .layout__content {
