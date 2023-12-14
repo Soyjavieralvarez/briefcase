@@ -214,9 +214,44 @@ body {
 }
 
 
-/* Provisional */
+/* SIDE NAVIGATION MENU */
 .layout__menu {
-    display: none !important;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -105px;
+    min-width: 11rem;
+    background-color: var(--color-transparent);
 }
 
+
+.menu__list {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white-main);
+    width: 60%;
+    min-height: 32rem;
+    box-shadow: 0 0 0 3rem -0.5rem rgba(0, 0, 0, 0.15);
+    border-radius: 6rem;
+    padding: 2rem 0;
+}
+
+.menu__option {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.menu__icon {
+    color: var(--green-main);
+    font-size: 2.8rem;
+}
+
+.menu__overlay {
+    opacity: 0;
+    display: none;
+}
 
