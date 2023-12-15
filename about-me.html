@@ -1,116 +1,251 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/2baf3a8f8e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/2baf3a8f8e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Portafolio Javier Álvarez</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <!--Main layout-->
     <div class="layout">
-        <!--Sidebar-->
-        <aside class="layout__aside">
-            <section class="aside__user-info">
-                <div class="user-info__general">
-                    <div class="user-info__container-image">
-                        <img class="user-info__image" src="./assets/images/javier-alvarez.png" alt="Foto de perfil de Javier Álvarez">
+      <!--Sidebar-->
+      <aside class="layout__aside">
+        <section class="aside__user-info">
+          <div class="user-info__general">
+            <div class="user-info__container-image">
+              <img
+                class="user-info__image"
+                src="./assets/images/javier-alvarez.png"
+                alt="Foto de perfil de Javier Álvarez"
+              />
+            </div>
+            <h2 class="user-info__name">Javier Álvarez</h2>
+            <h4 class="user-info__job">Full Stack Developer</h4>
+          </div>
+
+          <nav class="layout__menu">
+            <ul class="menu__list">
+              <li class="menu__option">
+                <a class="menu__link" href="index.html">
+                  <i class="menu__icon fa-solid fa-house"></i>
+                  <span class="menu__overlay">Menú</span>
+                </a>
+              </li>
+
+              <li class="menu__option">
+                <a class="menu__link" href="about-me.html">
+                  <i class="menu__icon fa-solid fa-user"></i>
+                  <span class="menu__overlay">Sobre mí</span>
+                </a>
+              </li>
+
+              <li class="menu__option">
+                <a class="menu__link" href="training.html">
+                  <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                  <span class="menu__overlay">Formación</span>
+                </a>
+              </li>
+
+              <li class="menu__option">
+                <a class="menu__link" href="briefcase.html">
+                  <i class="menu__icon fa-solid fa-briefcase"></i>
+                  <span class="menu__overlay">Portafolio</span>
+                </a>
+              </li>
+
+              <li class="menu__option">
+                <a class="menu__link" href="blog.html">
+                  <i class="menu__icon fa-solid fa-book"></i>
+                  <span class="menu__overlay">Blog</span>
+                </a>
+              </li>
+
+              <li class="menu__option">
+                <a class="menu__link" href="contact.html">
+                  <i class="menu__icon fa-solid fa-envelope"></i>
+                  <span class="menu__overlay">Contacto</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="user-info__links">
+            <ul class="links__social">
+              <li class="social__option">
+                <a class="social__link" href="#">
+                  <i class="social__link fa-brands fa-youtube"></i>
+                </a>
+              </li>
+
+              <li class="social__option">
+                <a class="social__link" href="#">
+                  <i class="social__link fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+
+              <li class="social__option">
+                <a class="social__link" href="#">
+                  <i class="social__link fa-brands fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="user-info__buttons">
+            <a class="user-info__btn" href="#">Descargar CV</a>
+          </div>
+          <footer class="user-info__footer">
+            &copy; 2024 Javier Álvarez Web
+          </footer>
+        </section>
+      </aside>
+      <main class="layout__content">
+        <section class="content__page content__about">
+          <header class="about__header">
+            <h2 class="about__title">
+              Sobre <span class="title__color">mi</span>
+            </h2>
+          </header>
+
+          <section class="about__personal-info">
+            <article class="personal-info__bio">
+              <p class="personal-info__description">
+                Soy un apasionado Desarrollador Full Stack con experiencia como
+                analista programador especializado en el desarrollo de software
+                para ChatBots. Mi trayectoria profesional abarca también el
+                sector del Marketing Digital, donde consolidé mi expertise
+                durante 4 años y medio. Durante los últimos dos años de esta
+                etapa, tuve el privilegio de desempeñarme como coordinador de
+                ventas y soporte para el reconocido escritor y conferencista
+                Álex Rovira, liderando un equipo internacional de 12 personas.
+                En el año 2022, tomé la decisión de fusionar mis conocimientos
+                en Marketing Digital y Publicidad con un Bootcamp especializado
+                en Desarrollo Full Stack, centrándome especialmente en el
+                Front-end, área que despierta mi mayor pasión. Actualización
+                constante de las últimas tendencias en desarrollo web, IA,
+                actualizaciones de framworks, etc. En mi tiempo libre me gusta
+                hacer deporte, viajar, escuchar música, leer y programar
+                proyectos propios
+              </p>
+            </article>
+
+            <div class="personal-info__data">
+                <ul class="personal-info__list">
+
+                    <li class="personal-info__optin">
+                        <span class="personal-info__title">País</span>
+                        <span class="personal-info__value">España</span>
+                    </li>
+
+                    <li class="personal-info__optin">
+                        <span class="personal-info__title">Ciudad actual</span>
+                        <span class="personal-info__value">Puerto Santa María, Cádiz</span>
+                    </li>
+
+                    <li class="personal-info__optin">
+                        <span class="personal-info__title">GitHub</span>
+                        <span class="personal-info__value">Enlace de Github</span>
+                    </li>
+
+                    <li class="personal-info__optin">
+                        <span class="personal-info__title">Email</span>
+                        <span class="personal-info__value">javier@javier.com</span>
+                    </li>
+
+                </ul>
+            </div>
+          </section>
+
+          <section class="about__professional">
+            <header class="professional__header">
+                <h3 class="professional__title">
+                    Experiencia <span class="professional__color">profesional</span>
+                </h3>
+            </header>
+
+            <div class="professional__container">
+
+                <article class="professional__job">
+                    <div class="job__icon">
+                        <i class="fa-solid fa-code"></i>
                     </div>
-                    <h2 class="user-info__name">Javier Álvarez</h2>
-                    <h4 class="user-info__job">Full Stack Developer</h4>
-                </div>
-                
-                <nav class="layout__menu">
-                    <ul class="menu__list">
 
-                        <li class="menu__option">
-                            <a class="menu__link" href="index.html">
-                                <i class="menu__icon fa-solid fa-house"></i>
-                                <span class="menu__overlay">Menú</span>
-                            </a>
-                        </li>
+                    <div class="job__content">
+                        <h4 class="job__content-title">Analista programador</h4>
+                        <p class="job__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores aliquid deleniti amet molestias adipisci corporis alias ratione esse incidunt magnam quas, labore architecto corrupti ullam cum. Nam, assumenda eos.</p>
+                    </div>
+                </article>
 
-                        <li class="menu__option">
-                            <a class="menu__link" href="about-me.html">
-                                <i class="menu__icon fa-solid fa-user"></i>
-                                <span class="menu__overlay">Sobre mí</span>
-                            </a>
-                        </li>
+                <article class="professional__job">
+                    <div class="job__icon">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                    </div>
 
-                        <li class="menu__option">
-                            <a class="menu__link" href="training.html">
-                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
-                                <span class="menu__overlay">Formación</span>
-                            </a>
-                        </li>
+                    <div class="job__content">
+                        <h4 class="job__content-title">Full Stack Developer</h4>
+                        <p class="job__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores aliquid deleniti amet molestias adipisci corporis alias ratione esse incidunt magnam quas, labore architecto corrupti ullam cum. Nam, assumenda eos.</p>
+                    </div>
+                </article>
 
-                        <li class="menu__option">
-                            <a class="menu__link" href="briefcase.html">
-                                <i class="menu__icon fa-solid fa-briefcase"></i>
-                                <span class="menu__overlay">Portafolio</span>
-                            </a>
-                        </li>
+                <article class="professional__job">
+                    <div class="job__icon">
+                        <i class="fa-solid fa-people-roof"></i>
+                    </div>
 
-                        <li class="menu__option">
-                            <a class="menu__link" href="blog.html">
-                                <i class="menu__icon fa-solid fa-book"></i>
-                                <span class="menu__overlay">Blog</span>
-                            </a>
-                        </li>
+                    <div class="job__content">
+                        <h4 class="job__content-title">Manager de soporte y ventas</h4>
+                        <p class="job__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores aliquid deleniti amet molestias adipisci corporis alias ratione esse incidunt magnam quas, labore architecto corrupti ullam cum. Nam, assumenda eos.</p>
+                    </div>
+                </article>
 
-                        <li class="menu__option">
-                            <a class="menu__link" href="contact.html">
-                                <i class="menu__icon fa-solid fa-envelope"></i>
-                                <span class="menu__overlay">Contacto</span>
-                            </a>
-                        </li>
+                <article class="professional__job">
+                    <div class="job__icon">
+                        <i class="fa-solid fa-address-card"></i>
+                    </div>
 
-                    </ul>
-                </nav>
+                    <div class="job__content">
+                        <h4 class="job__content-title">Freelance</h4>
+                        <p class="job__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores aliquid deleniti amet molestias adipisci corporis alias ratione esse incidunt magnam quas, labore architecto corrupti ullam cum. Nam, assumenda eos.</p>
+                    </div>
+                </article>
 
-                <div class="user-info__links">
-                    <ul class="links__social">
+                <article class="professional__job">
+                    <div class="job__icon">
+                        <i class="fa-solid fa-square-rss"></i>
+                    </div>
 
-                        <li class="social__option">
-                            <a class="social__link" href="#">
-                                <i class="social__link fa-brands fa-youtube"></i>
-                            </a>
-                        </li>
+                    <div class="job__content">
+                        <h4 class="job__content-title">Community Manager</h4>
+                        <p class="job__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores aliquid deleniti amet molestias adipisci corporis alias ratione esse incidunt magnam quas, labore architecto corrupti ullam cum. Nam, assumenda eos.</p>
+                    </div>
+                </article>
 
-                        <li class="social__option">
-                            <a class="social__link" href="#">
-                                <i class="social__link fa-brands fa-linkedin"></i>
-                            </a>
-                        </li>
+                <article class="professional__job">
+                    <div class="job__icon">
+                        <i class="fa-solid fa-square-rss"></i>
+                    </div>
 
-                        <li class="social__option">
-                            <a class="social__link" href="#">
-                                <i class="social__link fa-brands fa-instagram"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                    <div class="job__content">
+                        <h4 class="job__content-title">Community Manager</h4>
+                        <p class="job__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores aliquid deleniti amet molestias adipisci corporis alias ratione esse incidunt magnam quas, labore architecto corrupti ullam cum. Nam, assumenda eos.</p>
+                    </div>
+                </article>
+               
 
-                <div class="user-info__buttons">
-                    <a class="user-info__btn" href="#">Descargar CV</a>
-                </div>
-                <footer class="user-info__footer">
-                    &copy; 2024 Javier Álvarez Web
-                </footer>
-            </section>
-        </aside>
-        <main class="layout__content">
-            <section class="content__page content__page--about">
-                <!-- <h1 class="page__name">Javier Álvarez</h1>
-                <h2 class="page__job">Full Stack Developer</h2> -->
-            </section>
-        </main>
+            </div>
+
+
+          </section>
+
+
+        </section>
+      </main>
     </div>
-
-   
-    
-</body>
+  </body>
 </html>
