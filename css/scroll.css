@@ -37,3 +37,8 @@
 }
 
 /** SCROLL MOZ **/
+
+.content__page {
+    scrollbar-width: thin;
+    scrollbar-color: var(--green-main) transparent;
+}
