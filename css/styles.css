@@ -219,7 +219,7 @@ body {
     display: block;
     position: absolute;
     top: 0;
-    right: -105px;
+    right: -160px;
     min-width: 11rem;
     background-color: var(--color-transparent);
 }
@@ -261,7 +261,7 @@ body {
 .menu__overlay {
     position: absolute;
     right: 0;
-    margin-right: 2rem;
+    margin-right: 1rem;
     margin-top: -3rem;
     opacity: 0;
     padding: 0.5rem 1rem;
