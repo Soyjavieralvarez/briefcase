@@ -285,3 +285,15 @@ body {
     background-color: var(--black-main);
     color: var(--white-main)
 }
+
+
+/** ABOUT ME **/
+
+.content__about {
+    display: block;
+    height: 100%;
+    min-height: 100%;
+    padding: 6rem;
+    padding-right: 3rem ;
+    overflow: auto;
+}
