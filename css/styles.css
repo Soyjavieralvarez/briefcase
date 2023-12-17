@@ -309,7 +309,7 @@ body {
     color: var(--black-main)
 }
 
-.about__title::after {
+.about__title::after{
     content:"";
     position: absolute;
     top: 30px;
@@ -318,8 +318,6 @@ body {
     height: 30px;
     background-image: -webkit-repeating-radial-gradient(center center, var(--green-main), var(--green-main) 1px, transparent 0px, transparent 100%);
     background-size: 6px 6px;
-
-
 }
 
 .title__color {
@@ -374,4 +372,32 @@ body {
 
 .personal-info__link:hover {
     border-bottom: solid 1px var(--green-main);
+}
+
+
+
+/** PROFESIONAL INFORMATION **/ 
+
+
+.professional__header {
+    display: inline-block;
+    padding-right: 1.2rem;
+    position: relative;
+}
+
+.professional__title {
+    font-size: 2.5rem;
+}
+
+.professional__title::after{
+    content:"";
+    position: absolute;
+    top: 15px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    background-image: -webkit-repeating-radial-gradient(center center, var(--green-main), var(--green-main) 1px, transparent 0px, transparent 100%);
+    background-size: 6px 6px;
+
+
 }
