@@ -318,6 +318,7 @@ body {
     height: 30px;
     background-image: -webkit-repeating-radial-gradient(center center, var(--green-main), var(--green-main) 1px, transparent 0px, transparent 100%);
     background-size: 6px 6px;
+    opacity: 0.5;
 }
 
 .title__color {
@@ -381,7 +382,6 @@ body {
 
 .professional__header {
     display: inline-block;
-    padding-right: 1.2rem;
     position: relative;
 }
 
@@ -392,12 +392,11 @@ body {
 .professional__title::after{
     content:"";
     position: absolute;
-    top: 15px;
-    right: -10px;
+    top: 18px;
+    right: -19px;
     width: 30px;
-    height: 30px;
+    height: 20px;
     background-image: -webkit-repeating-radial-gradient(center center, var(--green-main), var(--green-main) 1px, transparent 0px, transparent 100%);
     background-size: 6px 6px;
-
-
+    opacity: 0.5;
 }
