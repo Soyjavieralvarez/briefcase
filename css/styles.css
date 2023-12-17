@@ -297,3 +297,81 @@ body {
     padding-right: 3rem ;
     overflow: auto;
 }
+
+.about__header {
+    display: inline-block;
+    margin-bottom: 4.5rem;
+}
+
+.about__title {
+    font-size: 4rem;
+    position: relative;
+    color: var(--black-main)
+}
+
+.about__title::after {
+    content:"";
+    position: absolute;
+    top: 30px;
+    right: -15px;
+    width: 40px;
+    height: 30px;
+    background-image: -webkit-repeating-radial-gradient(center center, var(--green-main), var(--green-main) 1px, transparent 0px, transparent 100%);
+    background-size: 6px 6px;
+
+
+}
+
+.title__color {
+    color: var(--green-main)
+}
+
+/** PERSONAL INFORMATION **/ 
+
+.about__personal-info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.personal-info__bio {
+    
+    flex-basis: 56%;
+}
+
+
+.personal-info__description {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+    color: var(--black-main)
+}
+
+.personal-info__data {
+    display: flex;
+    justify-content: center;
+    flex-basis: 44%;
+    padding: 0 1.5rem;
+}
+
+.personal-info__option {
+    margin-bottom: 1rem;
+}
+
+.personal-info__title {
+    font-size: 1.5rem;
+    color: var(--black-main);
+    font-weight: 600;
+    margin-right: 1rem;
+}
+
+.personal-info__value {
+    font-size: 1.5rem;
+    color: var(--green-main);
+    font-weight: 600;
+}
+
+.personal-info__link:hover {
+    border-bottom: solid 1px var(--green-main);
+}
