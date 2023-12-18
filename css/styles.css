@@ -344,7 +344,8 @@ body {
     font-size: 1.5rem;
     line-height: 2.4rem;
     font-weight: 600;
-    color: var(--black-main)
+    color: var(--black-main);
+    text-align: justify;
 }
 
 .personal-info__data {
@@ -379,10 +380,15 @@ body {
 
 /** PROFESIONAL INFORMATION **/ 
 
+.about__professional {
+    width: 100%;
+    margin-bottom: 3rem;
+}
 
 .professional__header {
     display: inline-block;
     position: relative;
+    margin-bottom: 2.5rem;
 }
 
 .professional__title {
@@ -400,3 +406,37 @@ body {
     background-size: 6px 6px;
     opacity: 0.5;
 }
+
+.professional__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.professional__job {
+    flex-basis: 45%;
+    margin-right: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.job__real-icon {
+    color: var(--green-main);
+    font-size: 3rem;
+}
+
+.job__content-title {
+    margin: 1rem 0;
+    color: var(--black-main);
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.job__description {
+    font-size: 1.6rem;
+    color: var(--black-main);
+    text-align: justify;
+}
+
+/** EDUCATION INFORMATION **/ 
