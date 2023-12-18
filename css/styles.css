@@ -443,23 +443,26 @@ body {
     font-size: 1.6rem;
     color: var(--black-main);
     text-align: justify;
+    line-height: 2.4rem;
 }
 
 /** EDUCATION INFORMATION **/ 
 
+
 .education__container {
+    
     width: 100%;
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
 }
 
 .education__education {
+    
     flex-basis: calc(50% - 2.5rem);
-    padding: 0 2.5rem 2.5rem 1.5rem;
-    margin: 1rem;
+    padding: 0 2.5rem 0rem 0rem;
+    margin: 1rem 0;
     
 }
 
@@ -470,8 +473,8 @@ body {
 .education__image {
     max-width: 8rem;
     max-height: 8rem;
-    margin: 1rem 0;
     border-radius: 9rem;
+    box-shadow: 0px 10px 10px -5px var(--grey-secondary);
 }
 
 .education__subtitle {
@@ -484,4 +487,21 @@ body {
 .education__text {
     font-size: 1.5rem;
     text-align: justify;
+}
+
+.education__description {
+    margin: 1rem 0;
+}
+
+.education__subtitle {
+    color: var(--black-main);
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.education__text {
+    font-size: 1.6rem;
+    color: var(--black-main);
+    text-align: justify;
+    line-height: 2.4rem;
 }
