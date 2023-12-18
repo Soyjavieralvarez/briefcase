@@ -45,7 +45,7 @@ body {
 
 .layout {
     position: relative;
-    min-width: 1290px;
+    min-width: 1200px;
     width: 75%;
     height: 80vh;
     min-height: 80vh;
@@ -219,7 +219,7 @@ body {
     display: block;
     position: absolute;
     top: 0;
-    right: -160px;
+    right: -100px;
     min-width: 11rem;
     background-color: var(--color-transparent);
 }
@@ -463,11 +463,15 @@ body {
     
 }
 
+.education__image--container {
+    width: 100%;
+}
 
 .education__image {
-    width: 8rem;
+    max-width: 8rem;
+    max-height: 8rem;
     margin: 1rem 0;
-    border-radius: 10rem;
+    border-radius: 9rem;
 }
 
 .education__subtitle {
