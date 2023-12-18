@@ -380,22 +380,26 @@ body {
 
 /** PROFESIONAL INFORMATION **/ 
 
-.about__professional {
+.about__professional,
+.about__education {
     width: 100%;
     margin-bottom: 3rem;
 }
 
-.professional__header {
+.professional__header,
+.education__header {
     display: inline-block;
     position: relative;
     margin-bottom: 2.5rem;
 }
 
-.professional__title {
+.professional__title,
+.education__title {
     font-size: 2.5rem;
 }
 
-.professional__title::after{
+.professional__title::after,
+.education__title::after{
     content:"";
     position: absolute;
     top: 18px;
@@ -411,12 +415,14 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 
 }
 
 .professional__job {
-    flex-basis: 45%;
+    flex-basis: calc(50% - 3rem);
     margin-right: 3rem;
     margin-bottom: 1.5rem;
 }
@@ -440,3 +446,38 @@ body {
 }
 
 /** EDUCATION INFORMATION **/ 
+
+.education__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.education__education {
+    flex-basis: calc(50% - 2.5rem);
+    padding: 0 2.5rem 2.5rem 1.5rem;
+    margin: 1rem;
+    
+}
+
+
+.education__image {
+    width: 8rem;
+    margin: 1rem 0;
+    border-radius: 10rem;
+}
+
+.education__subtitle {
+    color: var(--black-main);
+    margin: 1rem 0;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.education__text {
+    font-size: 1.5rem;
+    text-align: justify;
+}
