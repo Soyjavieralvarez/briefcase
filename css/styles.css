@@ -144,8 +144,6 @@ body {
 }
 
 .social__option:hover {
-    /* opacity: 1;
-    background-color: rgba(255, 255, 255, 0.25); */
     color: var(--black-main);
 }
 
@@ -214,7 +212,8 @@ body {
 }
 
 
-/* SIDE NAVIGATION MENU */
+/** SIDE NAVIGATION MENU **/
+
 .layout__menu {
     display: block;
     position: absolute;
@@ -276,15 +275,10 @@ body {
     right: 100%;
 }
 
-/* .menu__overlay:hover {
-    background-color: var(--black-main);
-    color: var(--white-main)
-} */
+/** GENERAL STYLES ABOUT ME, TRAINING**/
 
-
-/** ABOUT ME **/
-
-.content__about {
+.content__about,
+.content__resume {
     display: block;
     height: 100%;
     min-height: 100%;
@@ -293,18 +287,21 @@ body {
     overflow: auto;
 }
 
-.about__header {
+.about__header,
+.resume__header {
     display: inline-block;
     margin-bottom: 4.5rem;
 }
 
-.about__title {
+.about__title,
+.resume__title {
     font-size: 4rem;
     position: relative;
     color: var(--black-main)
 }
 
-.about__title::after{
+.about__title::after,
+.resume__title::after {
     content:"";
     position: absolute;
     top: 30px;
@@ -587,3 +584,6 @@ body {
     font-size: 3.3rem;
     margin-bottom: 1rem;
 }
+
+
+/** TRAINING **/ 
