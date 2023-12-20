@@ -242,20 +242,15 @@ body {
 }
 
 
-.menu__option {
-    display: block;
-    width: 100%;
-    text-align: center;
+.menu__option:hover .menu__icon {
+    color: var(--black-main);
 }
+
 
 .menu__icon {
     color: var(--green-main);
     font-size: 2.8rem;
     transition: all 500ms ease-in-out;
-}
-
-.menu__icon:hover {
-    color: var(--black-main);
 }
 
 .menu__overlay {
@@ -281,10 +276,10 @@ body {
     right: 100%;
 }
 
-.menu__overlay:hover {
+/* .menu__overlay:hover {
     background-color: var(--black-main);
     color: var(--white-main)
-}
+} */
 
 
 /** ABOUT ME **/
@@ -532,8 +527,7 @@ body {
     flex-basis: 40%;
 }
 
-.list-me__icon, 
-.extra__icon {
+.list-me__icon {
     color: var(--green-main);
     font-size: 2rem;
     margin-right: 1rem;
@@ -586,4 +580,10 @@ body {
     font-size: 1.6rem;
     color: var(--black-main);
     font-weight: 600;
+}
+
+.extra__icon {
+    color: var(--green-main);
+    font-size: 3.3rem;
+    margin-bottom: 1rem;
 }
