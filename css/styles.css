@@ -305,7 +305,7 @@ body {
     content:"";
     position: absolute;
     top: 30px;
-    right: -15px;
+    right: -25px;
     width: 40px;
     height: 30px;
     background-image: -webkit-repeating-radial-gradient(center center, var(--green-main), var(--green-main) 1px, transparent 0px, transparent 100%);
@@ -381,21 +381,24 @@ body {
 .professional__header,
 .education__header,
 .skills__header,
-.extra__header {
+.extra__header,
+.training__subheader {
     display: inline-block;
     position: relative;
     margin-bottom: 2.5rem;
 }
 
 .professional__title,
-.education__title {
+.education__title,
+.training__subtitle {
     font-size: 2.5rem;
 }
 
 .professional__title::after,
 .education__title::after,
 .extra__title::after,
-.skills__title::after{
+.skills__title::after,
+.training__subtitle::after{
     content:"";
     position: absolute;
     top: 18px;
