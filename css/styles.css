@@ -591,3 +591,8 @@ body {
 
 /** TRAINING **/ 
 
+.training__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
