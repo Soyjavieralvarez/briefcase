@@ -596,3 +596,52 @@ body {
     display: flex;
     flex-direction: row;
 }
+
+/** TRAINING LEFT **/ 
+
+.training__left {
+    flex-basis: 58%;
+    margin-right: 1.5rem;
+}
+
+
+.training__timelines {
+    margin-bottom: 5rem;
+}
+
+.timelines__timeline {
+    position: relative;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.timeline__header {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 75%;
+    text-align: right;
+    padding-right: 2.5rem;
+}
+
+.timeline__year {
+    margin: 3px 0px;
+    line-height: 1.9rem;
+    font-size: 1.4rem;
+    color: var(--black-main);
+}
+
+.timeline__company {
+    display: block;
+    margin: 0;
+    margin-bottom: 4px;
+    font-size: 1.4rem;
+    color: var(--black-main)
+}
+
+/** TRAINING RIGHT **/ 
+
+.training__rigth {
+    border: solid 1px rgb(212, 240, 3);
+}
