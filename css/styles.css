@@ -171,7 +171,8 @@ body {
 }
 
 .user-info__footer {
-    position: absolute;
+    position: relative;
+    margin-top: 10rem;
     bottom: 5rem;
     font-size: 1.2rem;
     color: var(--white-main)
