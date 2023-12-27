@@ -697,5 +697,10 @@ body {
 /** TRAINING RIGHT **/ 
 
 .training__rigth {
-    border: solid 1px rgb(212, 240, 3);
+    flex-basis: 41%;
 }
+
+.training__skills {
+    width: 100%;
+}
+
