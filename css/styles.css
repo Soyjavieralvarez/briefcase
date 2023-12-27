@@ -698,9 +698,46 @@ body {
 
 .training__rigth {
     flex-basis: 41%;
+    padding: 0 1.5rem;
 }
 
 .training__skills {
+    border: solid 1px red;
     width: 100%;
+    margin-bottom: 3rem;
+}
+
+.training__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.training__text {
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    margin-bottom: 0.4rem;
+    color: var(--black-main);
+}
+
+.training__number {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    margin-bottom: 0.4rem;
+    color: var(--grey-main);
+}
+
+.training__progressbar {
+    height: 1rem;
+    border: 1px solid var(--grey-secondary);
+    border-radius: 1rem;
+    background-color: var(--white-main);
+    margin-top: 1rem;
+}
+
+.training__percentage {
+    height: 0.8rem;
+    background-color: var(--green-main);
+    border: 2px solid var(--white-main);
+    border-radius: 1rem;
 }
 
