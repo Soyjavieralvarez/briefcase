@@ -393,7 +393,7 @@ body {
 .education__title,
 .training__subtitle {
     font-size: 2.5rem;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 }
 
 .professional__title::after,
@@ -745,21 +745,88 @@ body {
     border-radius: 1rem;
 }
 
-.training__percentage--p1 { width: 90%;}
+.training__percentage--p1 { width: 90%; }
 
-.training__percentage--p2 { width: 90%;}
+.training__percentage--p2 { width: 90%; }
 
-.training__percentage--p3 { width: 90%;}
+.training__percentage--p3 { width: 90%; }
 
-.training__percentage--p4 { width: 75%;}
+.training__percentage--p4 { width: 75%; }
 
-.training__percentage--p5 { width: 75%;}
+.training__percentage--p5 { width: 75%; }
 
-.training__percentage--p6 { width: 0%;}
+.training__percentage--p6 { width: 0%; }
 
-.training__percentage--p7 { width: 80%;}
+.training__percentage--p7 { width: 80%; }
 
-.training__percentage--p8 { width: 90%;}
+.training__percentage--p8 { width: 90%; }
 
-.training__percentage--p9 { width: 75%;}
+.training__percentage--p9 { width: 75%; }
 
+.knowledges__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.knowledges__option {
+    padding: 0.5rem 1rem;
+    margin: 0.3rem;
+    font-size: 1.3rem;
+    background-color: var(--green-main);
+    border-radius: 0.3rem;
+    color: var(--white-main);
+}
+
+/** CERTIFICATES **/ 
+
+.certificates__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.certificates__certificate {
+    flex-basis: calc(50% - 1.5rem);
+    border: 2px solid var(--green-main);
+    border-radius: 2rem;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.certificate__logo {
+    width: 15rem;
+    height: 100%;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certificates__image {
+    width: 100%;
+}
+
+.certificate__content {
+    flex-basis: 100%;
+    padding: 2rem 2.5rem;
+}
+
+.certificate__title {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.certificate__id {
+    display: block;
+    font-size: 1.3rem;
+    color: var(--grey-secondary);
+    margin-bottom: 0.3rem;
+}
+
+.certificate__date {
+    font-size: 1.2rem;
+    color: var(--grey-secondary);
+}
