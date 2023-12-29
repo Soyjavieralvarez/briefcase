@@ -393,6 +393,7 @@ body {
 .education__title,
 .training__subtitle {
     font-size: 2.5rem;
+    margin-top: 1rem;
 }
 
 .professional__title::after,
@@ -723,6 +724,7 @@ body {
     font-size: 1.1rem;
     line-height: 1.4rem;
     margin-bottom: 0.4rem;
+    margin-top: 0.8rem;
     color: var(--grey-main);
 }
 
@@ -737,10 +739,27 @@ body {
 }
 
 .training__percentage {
-    width: 40%;
     height: 0.8rem;
     background-color: var(--green-main);
     border: 2px solid var(--white-main);
     border-radius: 1rem;
 }
+
+.training__percentage--p1 { width: 90%;}
+
+.training__percentage--p2 { width: 90%;}
+
+.training__percentage--p3 { width: 90%;}
+
+.training__percentage--p4 { width: 75%;}
+
+.training__percentage--p5 { width: 75%;}
+
+.training__percentage--p6 { width: 0%;}
+
+.training__percentage--p7 { width: 80%;}
+
+.training__percentage--p8 { width: 90%;}
+
+.training__percentage--p9 { width: 75%;}
 
