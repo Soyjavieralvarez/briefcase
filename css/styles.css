@@ -836,3 +836,64 @@ body {
     font-size: 1.2rem;
     color: var(--grey-secondary);
 }
+
+
+/** BRIEFCASE **/ 
+
+.briefcase__nav {
+    margin-bottom: 3rem;
+}
+
+.briefcase__menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.briefcase__option {
+    font-size: 1.3rem;
+    opacity: 0.7;
+}
+
+.briefcase__option--active {
+    opacity: 1;
+}
+
+.briefcase__link {
+    cursor: pointer;
+}
+
+.briefcase__link:hover {
+    color: var(--green-main);
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.25)
+}
+
+.briefcase__gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gallery__item {
+    flex-basis: 50%;
+    padding: 1rem;
+}
+
+.gallery__container-image {
+    overflow: hidden;
+}
+
+.gallery__image {
+    transition: all 300ms ease-in-out;
+}
+
+.gallery__item:hover .gallery__image {
+    transform: scale(1.1);
+}
+
+.gallery__tittle {
+    font-size: 1.6rem;
+    padding: 1.5rem 0;
+    font-weight: bold;
+}
