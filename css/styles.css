@@ -280,7 +280,8 @@ body {
 
 .content__about,
 .content__resume,
-.content__briefcase {
+.content__briefcase,
+.content__blog {
     display: block;
     height: 100%;
     min-height: 100%;
@@ -291,14 +292,16 @@ body {
 
 .about__header,
 .resume__header,
-.briefcase__header {
+.briefcase__header,
+.blog__header {
     display: inline-block;
     margin-bottom: 4.5rem;
 }
 
 .about__title,
 .resume__title,
-.briefcase__title {
+.briefcase__title,
+.blog__title {
     font-size: 4rem;
     position: relative;
     color: var(--black-main);
@@ -307,7 +310,8 @@ body {
 
 .about__title::after,
 .resume__title::after,
-.briefcase__title::after {
+.briefcase__title::after,
+.blog__title::after {
     content:"";
     position: absolute;
     top: 30px;
