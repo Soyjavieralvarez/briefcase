@@ -990,3 +990,40 @@ body {
 .article__top:hover .article__image {
     transform: scale(1.1);
 }
+
+.article__logo {
+    transition: all 200ms ease-in-out;
+    opacity: 0;
+}
+
+.article__icon {
+    position: absolute;
+    top: calc(50% - 2.2rem);
+    left: calc(50% - 2.2rem);
+    width: 4.4rem;
+    font-size: 4rem;
+    text-align: center;
+    color: var(--white-main);
+}
+
+.article__top:hover .article__logo {
+    opacity: 1;
+}
+
+.article__bottom {
+    margin: 0;
+    padding: 1.5rem;    
+    border: 0.1rem solid var(--grey-main);
+    border-top: none;
+}
+
+.article__date {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: var(--color-text);
+}
+
+.article__title {
+    font-size: 1.8rem;
+}
