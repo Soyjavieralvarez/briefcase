@@ -1,0 +1,57 @@
+:root {
+  --green-main: #4db6ac;
+  --white-main: #ffff;
+  --black-main: #333333;
+  --grey-main: #666666;
+  --color-background: #f2f7f9;
+  --color-transparent: transparent;
+  --grey-secondary: #888;
+  --color-text: #555;
+}
+
+.loader {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 48px;
+  height: 48px;
+  border: 5px solid var(--green-main);
+  border-radius: 50%;
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  animation: pulse 1s linear infinite;
+}
+.loader:after {
+  content: "";
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border: 5px solid var(--green-main);
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: scaleUp 1s linear infinite;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  60%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+@keyframes pulse {
+  0%,
+  60%,
+  100% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(1.2);
+  }
+}
