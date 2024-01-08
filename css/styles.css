@@ -295,7 +295,8 @@ body {
 .resume__header,
 .briefcase__header,
 .blog__header,
-.contact__header {
+.contact__header,
+.contact__form-header {
     display: inline-block;
     margin-bottom: 4.5rem;
 }
@@ -304,7 +305,8 @@ body {
 .resume__title,
 .briefcase__title,
 .blog__title,
-.contact__title {
+.contact__title,
+.form-header__title {
     font-size: 4rem;
     position: relative;
     color: var(--black-main);
@@ -315,7 +317,8 @@ body {
 .resume__title::after,
 .briefcase__title::after,
 .blog__title::after,
-.contact__title::after {
+.contact__title::after,
+.form-header__title::after {
     content:"";
     position: absolute;
     top: 30px;
@@ -1030,4 +1033,139 @@ body {
 
 .article__title {
     font-size: 1.8rem;
+}
+
+/** CONTACT PAGE **/ 
+
+.contact__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact__info {
+    flex-basis: 33%;
+    padding: 0 1.5rem;
+}
+
+.contact__data {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: var(--color-background);
+    border: 0.1px solid var(--green-main);
+}
+
+.contact__icon {
+    font-size: 3rem;
+    color: var(--green-main);
+}
+
+.contact__subtitle {
+    margin-top: 1rem;
+    color: var(--black-main);
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.contact__form-box {
+    flex-basis: 66%;
+    padding: 0 1.5rem;
+}
+
+.form__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.form__left {
+    flex-basis: 47%;
+    margin-right: 1.5rem;
+}
+
+.form__group {
+    position: relative;
+    margin-bottom: 2.8rem;
+}
+
+.form__input {
+    position: relative;
+    width: 100%;
+    height: 4.2rem;
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem 1.2rem;
+    border: 0.2rem solid var(--grey-secondary);
+    border-radius: 0.5rem;
+    outline: none;
+    box-shadow: 0 1rem 1rem -8px rgba(0, 0, 0, 0.10);
+    background-color: transparent;
+    background: 0 0;
+    line-height: 2.1rem;
+    z-index: 1;
+}
+
+.form__input:focus {
+    border: 0.2rem solid var(--green-main);
+}
+
+.form__label {
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+    z-index: 1;
+    color: var(--black-main);
+    transition: all 300ms ease-in-out;
+    pointer-events: none;
+}
+
+.form__input:focus~label,
+.form__input:not(:placeholder-shown)~label {
+    top: -2rem;
+    left: 0;
+    z-index: 1;
+    font-size: 1.3rem;
+    color: var(--green-main);
+}
+
+.form__input::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form__input::-moz-placeholder {
+    color: transparent;
+}
+
+.form__right {
+    flex-basis: 50%;
+    max-width: 50%;
+    max-height: 100%;
+}
+
+.form__group--textarea {
+    height: 100%;
+}
+
+.form__input--textarea {
+    display: block;
+    resize: none;
+    height: 100%;
+}
+
+.form__button {
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 0.2rem solid var(--green-main);
+    color: var(--green-main);
+    background-color: var(--white-main);
+    border-radius: 3rem;
+    box-shadow: 0 1rem 1rem -8px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.form__button:hover {
+    background-color: var(--green-main);
+    color: var(--white-main);
 }
