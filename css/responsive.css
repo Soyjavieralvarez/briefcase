@@ -71,8 +71,38 @@
 
 @media (max-width: 585px) {
 
+    .about__personal-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .personal-info__data {
+        flex-basis: 100%;
+        padding: 0;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .professional__container {
+        flex-direction: column;
+    }
+
+    .professional__job {
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+
+    .skills__list {
+        flex-direction: column;
+    }
+
     .extra__container{
         display: none;
+    }
+
+    .training__container {
+        flex-direction: column;
     }
     
 
