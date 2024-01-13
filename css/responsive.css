@@ -51,6 +51,7 @@
     }
 
     .layout__menu-toggle {
+        z-index: 9999;
         display: block;
         position: absolute;
         top: 1rem;
@@ -67,8 +68,21 @@
         transition: all 300ms ease-in-out;
     }
 
+    .menu-toggle__icon {
+        color: var(--white-main);
+        display: block;
+        position: absolute;
+        top: 25%;
+        left: 28%;
+        transition: all 300ms ease-in-out;
+    }
+
+    .fa-bars {
+        opacity: 1;
+    }
+
     .fa-xmark {
-        display: none;
+        opacity: 0;
     }
     
 
@@ -85,6 +99,17 @@
         border-radius: 0;
         z-index: 999;
 
+        margin-right: -100%;
+        opacity: 0;
+    }
+
+    .layout__aside--visible {
+        width: 100%;
+        margin-right: 0;
+        opacity: 1;
+    }
+
+    .layout__aside--hidden {
         margin-right: -100%;
         opacity: 0;
     }
