@@ -459,6 +459,13 @@ body {
     font-weight: bold;
 }
 
+.job__content-subtitle {
+    margin: 0.5rem 0;
+    color: var(--color-text);
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
 .job__description {
     font-size: 1.6rem;
     color: var(--black-main);
