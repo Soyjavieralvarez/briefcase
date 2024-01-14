@@ -430,6 +430,7 @@ body {
 }
 
 .professional__container {
+    /* border: solid 1px red; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -440,8 +441,9 @@ body {
 }
 
 .professional__job {
-    flex-basis: calc(50% - 3rem);
-    margin-right: 3rem;
+    /* border: solid 1px black; */
+    /* flex-basis: calc(50% - 3rem); */
+    /* margin-right: 3rem; */
     margin-bottom: 1.5rem;
 }
 
