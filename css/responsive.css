@@ -314,6 +314,10 @@
 }
 
 @media (max-width: 480px) {
+
+  * {
+    overflow: hidden;
+  }
   .user-info__name {
     font-size: 3.5rem;
     margin-top: 0.5rem;
